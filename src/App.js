@@ -1,12 +1,15 @@
 import React from "react";
 import "./App.css";
+import Body from './Components/Body'
+import Head from './Components/Head'
+import axios from 'axios'
 
 function App() {
   return (
     <div className="App">
       <p>
-        Read through the instructions in the README.md file to build your NASA
-        app! Have fun <span role="img" aria-label='go!'>🚀</span>!
+      <Head />
+      <Body />
       </p>
     </div>
   );
